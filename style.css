@@ -1,0 +1,76 @@
+main {
+    display: flex;
+    margin: 0px;
+    gap: 50px;
+}
+
+
+  .vl {
+    border-left: 1px solid gray;
+    height: 100%; 
+    position: fixed; 
+    left: 20%; 
+    top: 0; 
+}
+
+  .right-side {
+  margin-left: 20px;
+
+  }
+
+  .right-side div {
+    margin-top: 10px;
+  }
+.left-side {
+    width: 70%;
+    margin-left: 50px;
+}
+
+
+h4 {
+    margin-top: 2px;
+  }
+
+h5 {
+    margin: 10px;
+    margin-left: 0px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.upper-line{
+    display: inline;
+}
+
+ select {
+   float: right;
+   color: rgba(0, 0, 0, 0.565);
+}
+
+span {
+    color: rgba(0, 0, 0, 0.565);
+    font-size: smaller;
+}
+
+img {
+    margin-top: 15px;
+    width: 100px;
+    height: 140px;
+}
+
+.list-of-books{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr  1fr auto;
+    grid-template-rows: auto;
+    gap: 7px;
+}
+
+
+
+.title {
+    font-size: small;
+}
+
+
